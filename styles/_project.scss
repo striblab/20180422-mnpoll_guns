@@ -19,7 +19,9 @@ body {
 }
 
 .section {
-	margin-bottom:30px;
+   margin-bottom: 3em;
+   padding-top: 2em;
+   border-top: 1px solid #ccc;
 }
 
 .myButton2 {
@@ -100,9 +102,10 @@ body {
 		font-family: "Benton Sans", Helvetica, Arial, sans-serif !important;
 	}
 
-	.dataframe { 
-		height:2900px;
-	} 
+
+    .breakchart svg, .breakchart {
+        height:300px !important;
+    }
 
 	#bigResults {
 	    text-align: center;
@@ -182,7 +185,7 @@ body {
 	}
 
 	.wrapper-dropdown-1 {
-		padding-right:60px;
+		padding-right:30px !important;
 	}
 
 	.main {
